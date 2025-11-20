@@ -1,0 +1,17 @@
+identity:
+  author: lightman
+  name: lightman_tools
+  label:
+    en_US: Lightman Tools
+    zh_Hans: Lightman工具集
+  description:
+    en_US: private tools.
+    zh_Hans: 私人工具集。
+  icon: icon.svg
+
+tools:
+  - tools/zip_link_get_img/zip_link_get_img.yaml
+
+extra:
+  python:
+    source: provider/lightman_tools.py

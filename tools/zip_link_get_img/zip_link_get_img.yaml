@@ -1,0 +1,29 @@
+identity:
+  name: zip_link_get_img
+  author: lightman
+  label:
+    en_US: get images from zip link
+    zh_Hans: 从压缩包链接中获取图片
+
+description:
+  human:
+    en_US: get images from zip link.
+    zh_Hans: 从压缩包链接中获取图片。
+  llm: get images from zip link.
+
+parameters:
+
+  - name: zip_link
+    type: string
+    label:
+      en_US: ZIP file link
+      zh_Hans: ZIP 文件链接
+    human_description:
+      en_US: The link to the ZIP file containing images.
+      zh_Hans: 包含图片的ZIP文件链接。
+    required: true
+    form: llm
+
+extra:
+  python:
+    source: tools/zip_link_get_img/zip_link_get_img.py
