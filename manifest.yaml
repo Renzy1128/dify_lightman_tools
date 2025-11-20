@@ -1,0 +1,29 @@
+version: 0.0.1
+type: plugin
+author: lightman
+name: lightman_tools
+label:
+  en_US: Lightman Tools
+description:
+  en_US: private tools.
+  zh_Hans: 私人工具集。
+icon: icon.svg
+resource:
+  memory: 268435456
+plugins:
+  tools:
+    - provider/lightman_tools.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: null
+created_at: 2025-11-19T00:00:00.000000000Z
+privacy: PRIVACY.md
+repo: https://github.com/Renzy1128/dify-lightman-tools
+verified: false
