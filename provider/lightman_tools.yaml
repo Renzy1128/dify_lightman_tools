@@ -11,6 +11,7 @@ identity:
 
 tools:
   - tools/zip_link_get_img/zip_link_get_img.yaml
+  - tools/md_to_docx/md_to_docx.yaml
 
 extra:
   python:
